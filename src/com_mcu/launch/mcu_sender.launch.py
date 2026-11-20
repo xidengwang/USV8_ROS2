@@ -1,0 +1,13 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+
+def generate_launch_description() -> LaunchDescription:
+    return LaunchDescription([
+        Node(
+            package='com_mcu',
+            executable='uart_example_send.py',
+            name='uart_send',
+            output='screen',
+        ),
+    ])

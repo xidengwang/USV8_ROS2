@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>com_mcu</name>
+  <version>0.1.0</version>
+  <description>ROS 2 serial communication nodes for the USV MCU.</description>
+  <maintainer email="xidengwang@example.com">xidengwang</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>traj</depend>
+  <depend>usv_interfaces</depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>python3-serial</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

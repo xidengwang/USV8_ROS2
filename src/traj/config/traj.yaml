@@ -1,0 +1,9 @@
+trajgen:
+  ros__parameters:
+    publish_period: 0.02
+    trajectory_source: fixed
+    trajectory_file: ''
+    fixed_x: 423.0
+    fixed_y: -472.0
+    initial_mode: 0
+    use_aux_mode: true
